@@ -101,3 +101,15 @@ const PORT = 5000;
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
+// CREATE TABLE students (
+//   id INT AUTO_INCREMENT PRIMARY KEY,
+//   name VARCHAR(100) NOT NULL,
+//   enrollment_number VARCHAR(50) NOT NULL UNIQUE,
+//   date_of_birth DATE NOT NULL
+// );
+// CREATE TABLE subjects (
+//   enrollment_number VARCHAR(50),
+//   subject VARCHAR(255),
+//   marks INT,
+//   status VARCHAR(50)
+// );
